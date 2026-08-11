@@ -1,0 +1,20 @@
+#OSI MODEL:
+The OSI model (open system interconnection) model has seven layers:
+1. Application
+2. Presentation
+3. Session
+4. Transport
+5. Network
+6. Data link
+7. Physical
+## Important Cybersecurity layers:
+- Transport layer: TCP,UDP,PORTS 
+-Network layer: IP address and routing
+-Data link layer: MAC address and frames
+-Application layer: protocols such as HTTP/HTTPS AND DNS.
+## Practical learning
+I used the "tracert" command to observe network hops between my computer and google.
+I alse learned that:
+-ROUTER -mainly associated with IP / Routing
+-Switch - mainly associated with MAC adress
+- Tracert: - shows the route/hops towards a destination.
