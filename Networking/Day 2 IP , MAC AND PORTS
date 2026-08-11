@@ -1,0 +1,50 @@
+# Day 2 — IP, MAC Addresses and Ports
+
+## IP Address
+
+An IP address is used to identify a device/interface on a network.
+
+Example:
+192.168.100.23
+
+## Private IP Address
+
+Private IP addresses are used inside local networks.
+
+Common private IPv4 ranges include:
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+
+## MAC Address
+
+A MAC address is a hardware/network-interface address used at the Data Link layer.
+
+Example:
+34-B3-54-C1-2E-38
+
+## Ports
+
+Ports help identify network services/applications on a device.
+
+Examples:
+- HTTP — 80
+- HTTPS — 443
+- DNS — 53
+- SSH — 22
+
+## TCP vs UDP
+
+### TCP
+- Connection-oriented
+- Reliable delivery
+- Uses acknowledgements and retransmission
+
+### UDP
+- Connectionless
+- Faster/lower overhead
+- Does not guarantee delivery
+
+## Practical Learning
+
+I used Windows networking commands to observe IP configuration, network information, and active network connections.
