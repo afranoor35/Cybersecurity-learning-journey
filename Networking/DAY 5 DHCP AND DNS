@@ -1,0 +1,47 @@
+# Day 5 - DHCP and DNS
+
+## DHCP
+
+DHCP stands for Dynamic Host Configuration Protocol.
+
+DHCP automatically provides devices with network configuration such as:
+- IP address
+- Subnet mask
+- Default gateway
+- DNS server
+
+This makes network configuration easier because users do not need to manually configure an IP address.
+
+## DNS
+
+DNS stands for Domain Name System.
+
+DNS translates domain names into IP addresses.
+
+Example:
+
+google.com → IP address
+
+This allows users to access websites using easy-to-remember domain names instead of numerical IP addresses.
+
+## Practical Learning
+
+I used the following commands in Windows Command Prompt:
+
+### 1. ipconfig /all
+
+This command displays detailed network configuration, including:
+- IPv4 address
+- DHCP status
+- DHCP server
+- DNS servers
+- Default gateway
+
+### 2. nslookup google.com
+
+This command was used to check DNS resolution and observe the DNS server and IP address returned for google.com.
+
+## Key Takeaway
+
+DHCP helps devices obtain network configuration automatically, while DNS translates domain names into IP addresses. 
+Both are important concepts in networking and cybersecurity.
